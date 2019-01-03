@@ -1,0 +1,1 @@
+nvcc -O3 -std=c++11 BigImgCCL.cu AbstractBlockClass.cu GDALRead.cpp UnionFind.cpp -o BigImgCCL -lgdal
